@@ -2,7 +2,7 @@
 
 A simple set of Smart Contracts enabling NFT minting capabilities on Hedera. The system uses a factory pattern to deploy individual minting contracts, each with its own configuration for pricing, allowlists, and fee distribution.
 
-These contracts were developed as part of (Hello Future Hackathon)[https://hellofuturehackathon.dev/] and utilized in the (KiloScribe)[https://kiloscribe.com] LaunchPage tool.
+These contracts were developed as part of [Hello Future Hackathon](https://hellofuturehackathon.dev "Hello Future Hackathon") and utilized in the [KiloScribe](https://kiloscribe.com "KiloScribe") LaunchPage tool.
 
 ## ⚠️ Disclaimer
 
