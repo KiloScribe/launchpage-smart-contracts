@@ -1,0 +1,48 @@
+{
+  "name": "launchpage-smart-contracts",
+  "version": "1.0.0",
+  "description": "Factory smart contracts to deploy a LaunchPage",
+  "author": "kantorcodes",
+  "homepage": "https://kiloscribe.com",
+  "license": "MIT",
+  "type": "module",
+  "main": "start.mjs",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "start": "NODE_OPTIONS='--loader ts-node/esm' node src/index.ts",
+    "compile": "hardhat compile",
+    "clean": "hardhat clean",
+    "decode": "NODE_OPTIONS='--loader ts-node/esm' node src/errorDecoder.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buidler-labs/hedera-strato-demo.git"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.18.9",
+    "@hashgraph/sdk": "^2.55.1",
+    "@openzeppelin/contracts": "4.5.0",
+    "abi-decoder": "^2.4.0",
+    "axios": "^0.27.2",
+    "bignumber.js": "^9.0.2",
+    "dotenv": "^16.0.1",
+    "ethers": "^6.13.4",
+    "ioredis": "^5.2.4",
+    "lodash.groupby": "^4.6.0",
+    "node-fetch": "^3.2.10",
+    "openzeppelin-contracts": "^4.0.0",
+    "prettier": "^2.8.1",
+    "solc": "^0.8.28"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/winston": "^2.4.4",
+    "hardhat": "^2.11.0",
+    "prettier-plugin-solidity": "^1.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
